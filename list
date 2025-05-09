@@ -1,0 +1,75 @@
+this is a file where we create a version control
+using git commands
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        form {
+            max-width: 400px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            margin-top: 15px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/submit_registration" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="contact">Contact Number :</label>
+        <input type="tel" id="contact" name="contact" required>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+
+1.Create a folder on desktop  (WAD you can use any name for folder)
+2.open that folder in vs code and open vs code’s terminal 
+3.mkdir part( this will cerate part in folder WAD)
+4.cd part  (now you terminal path will look like C://users/desktop/WAD/part)
+5.git –version (this will give version of git)
+6.create a new repository directly by login github 
+7.Now create a file as registration form in vs code 
+
+8.now in vs terminal -> 
+
+git init
+git add .
+git status
+git remote add origin “http link of repo which we have created”
+git commit -m “first commit”
+git config --global user.name "SakshiJumle"
+git config --global user.email "sakshi.jumle111@gmail.com"
+git status
+git push -u origin master
+
+
