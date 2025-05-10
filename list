@@ -52,24 +52,3 @@ using git commands
 </body>
 </html>
 
-1.Create a folder on desktop  (WAD you can use any name for folder)
-2.open that folder in vs code and open vs code’s terminal 
-3.mkdir part( this will cerate part in folder WAD)
-4.cd part  (now you terminal path will look like C://users/desktop/WAD/part)
-5.git –version (this will give version of git)
-6.create a new repository directly by login github 
-7.Now create a file as registration form in vs code 
-
-8.now in vs terminal -> 
-
-git init
-git add .
-git status
-git remote add origin “http link of repo which we have created”
-git commit -m “first commit”
-git config --global user.name "SakshiJumle"
-git config --global user.email "sakshi.jumle111@gmail.com"
-git status
-git push -u origin master
-
-
